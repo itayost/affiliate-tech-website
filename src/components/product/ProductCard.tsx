@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { Star, Heart, Compare, ExternalLink, TrendingUp, Award, Zap } from 'lucide-react';
+import { Star, Heart, GitCompare, ExternalLink, TrendingUp, Award, Zap } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import { Card, CardContent } from '@/components/ui/Card';
 import { ProductSummary, AffiliateLink, Locale } from '@/types';
@@ -249,7 +249,7 @@ export default function ProductCard({
                     className="p-2 rounded-full bg-white/90 hover:bg-white text-gray-600 hover:text-primary shadow-sm transition-colors"
                     aria-label={text.compare}
                   >
-                    <Compare className="h-4 w-4" />
+                    <GitCompare className="h-4 w-4" />
                   </button>
                 )}
               </div>

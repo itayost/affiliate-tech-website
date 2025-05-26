@@ -8,7 +8,7 @@ import { ThemeProvider } from '@/components/theme/ThemeProvider';
 import { useBreakpoint, ResponsiveContainer, ResponsiveGrid, ResponsiveVisibility } from '@/hooks/responsive';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
-import ProductCard from '@/components/ui/ProductCard';
+import ProductCard from '@/components/product/ProductCard';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/Card';
 import Button from '@/components/ui/Button';
 import { SearchInput } from '@/components/ui/Input';

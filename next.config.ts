@@ -7,7 +7,16 @@ const withNextIntl = createNextIntlPlugin('./src/i18n.ts');
 const nextConfig = {
   images: {
     formats: ['image/webp', 'image/avif'],
-    domains: ['localhost', 'example.com'],
+    remotePatterns: [
+    {
+      protocol: 'https',
+      hostname: 'localhost',
+    },
+    {
+      protocol: 'https',
+      hostname: 'example.com',
+    },
+  ],
   },
   compiler: {
     removeConsole: process.env.NODE_ENV === 'production',
