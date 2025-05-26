@@ -1,0 +1,19 @@
+{
+  "Navigation": {
+    "home": "בית",
+    "categories": "קטגוריות",
+    "reviews": "סקירות",
+    "guides": "מדריכים",
+    "deals": "מבצעים"
+  },
+  "Common": {
+    "loading": "טוען...",
+    "error": "שגיאה",
+    "search": "חיפוש",
+    "language": "עברית"
+  },
+  "HomePage": {
+    "title": "ברוכים הבאים ל-TechReviews",
+    "subtitle": "סקירות מקצועיות של מוצרי טכנולוגיה"
+  }
+}

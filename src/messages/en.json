@@ -1,0 +1,19 @@
+{
+  "Navigation": {
+    "home": "Home",
+    "categories": "Categories",
+    "reviews": "Reviews",
+    "guides": "Guides",
+    "deals": "Deals"
+  },
+  "Common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "search": "Search",
+    "language": "English"
+  },
+  "HomePage": {
+    "title": "Welcome to TechReviews",
+    "subtitle": "Professional technology product reviews"
+  }
+}
